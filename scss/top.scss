@@ -1,0 +1,24 @@
+.top{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 45px;
+  background: $background-color-2;
+  div{
+    line-height: auto;
+  }
+  button{
+    cursor: pointer;
+    width: 80px;
+    height: 32px;
+    color: $text-cl-3;
+    background: $button-bg;
+    border-radius: 6px;
+    border: $button-bg;
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+}
